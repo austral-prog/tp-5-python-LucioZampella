@@ -20,7 +20,7 @@ class User:
 
     # Setters
     def increment_checkouts(self):
-        pass
+        self.__number_of_checkouts += 1
 
     def increment_checkins(self):
-        pass
+        self.__number_of_checkins += 1
